@@ -1,6 +1,21 @@
 main {
     color: white;
 }
+
+main .content_title {
+    font-size: 30px;
+    margin: 7px 10px;
+}
+
 main img {
-    width: 180px;
+    width: 200px;
+}
+
+main .content .movies {
+    display: flex;
+    justify-content: center;
+}
+
+.movies img.movie {
+    margin : 0 20px;
 }
