@@ -1,0 +1,7 @@
+header {
+    background-image: url("../assets/bg_image.jpeg");
+}
+
+.header_logo img {
+    width: 200px;
+}
