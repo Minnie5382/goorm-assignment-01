@@ -1,7 +1,12 @@
 header {
     background-image: url("../assets/bg_image.jpeg");
+    color: white;
 }
 
 .header_logo img {
-    width: 200px;
+    height: 60px;
+}
+
+.user_profile img{
+    height: 60px;
 }
