@@ -1,12 +1,57 @@
 header {
     background-image: url("../assets/bg_image.jpeg");
-    color: white;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header .info_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .header_logo img {
     height: 60px;
 }
 
-.user_profile img{
-    height: 60px;
+.header .info_wrapper .user_profile {
+    margin: 15px;
 }
+
+.user_profile img {
+    height: 40px;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+}
+
+.header_content .title {
+    font-size: 30px;
+}
+
+/* movie_intro가 header의 세로의 중앙에 위치 */
+.header_content .movie_intro {
+    width: 400px;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+.header_content button {
+    border: none;
+    font-weight: bold;
+    padding: 5px 28px;
+    margin: 5px 10px;
+    font-size: 16px;
+    background-color:rgba(8, 8, 8, 0.2);
+}
+
+
