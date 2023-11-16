@@ -1,5 +1,5 @@
 header {
-    background-image: url("../assets/bg_image.jpeg");
+    background-image: url("https://occ-0-993-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZz8rwCRdQdUcLK6lKOUcyW4QYxxmp5yAZd-2DieI21_hKGj_E1KWOsI7yldN40JKAU326KNhdw0qnkxPFqWgXaJMUEsRxWsgQ2o.jpg?r=915&quot");
     background-repeat: no-repeat;
     background-size: cover ;
     height: 450px;
@@ -37,12 +37,16 @@ header {
 
 /* movie_intro가 header의 세로의 중앙에 위치 */
 .header_content .movie_intro {
-    width: 400px;
+    width: 450px;
     margin: 10px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-weight: bold;
+}
+
+.header_content .movie_intro p {
+    margin-top:8px;
 }
 
 .header_content button {
@@ -52,6 +56,7 @@ header {
     margin: 5px 10px;
     font-size: 16px;
     background-color:rgba(8, 8, 8, 0.2);
+    cursor: pointer;
 }
 
 
