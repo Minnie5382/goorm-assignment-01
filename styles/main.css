@@ -4,18 +4,33 @@ main {
 
 main .content_title {
     font-size: 30px;
-    margin: 7px 10px;
+    margin: 10px 0 0 0;
 }
 
-main img {
+main .movies img {
     width: 200px;
+    transition: all 0.2s linear;
+    cursor: pointer;
 }
+
+main .movies img:hover {
+    transform: scale(1.2);
+  }
 
 main .content .movies {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .movies img.movie {
-    margin : 0 20px;
+    margin: 40px 20px;
 }
+
+.movies {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.movies::-webkit-scrollbar {
+    display: none;
+  }

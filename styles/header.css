@@ -1,11 +1,12 @@
 header {
     background-image: url("https://occ-0-993-2218.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZz8rwCRdQdUcLK6lKOUcyW4QYxxmp5yAZd-2DieI21_hKGj_E1KWOsI7yldN40JKAU326KNhdw0qnkxPFqWgXaJMUEsRxWsgQ2o.jpg?r=915&quot");
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
     height: 450px;
     display: flex;
     flex-direction: column;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.93) 480px 0px 500px inset;
 }
 
 .header .info_wrapper {
@@ -16,6 +17,7 @@ header {
 
 .header_logo img {
     height: 60px;
+    cursor: pointer;
 }
 
 .header .info_wrapper .user_profile {
@@ -24,6 +26,7 @@ header {
 
 .user_profile img {
     height: 40px;
+    cursor: pointer;
 }
 
 .header_content {
@@ -43,19 +46,22 @@ header {
     top: 50%;
     transform: translateY(-50%);
     font-weight: bold;
+    color: white;
 }
 
 .header_content .movie_intro p {
     margin-top:8px;
+    
 }
 
 .header_content button {
     border: none;
     font-weight: bold;
+    color: white;
     padding: 5px 28px;
     margin: 5px 10px;
     font-size: 16px;
-    background-color:rgba(8, 8, 8, 0.2);
+    background-color:rgba(226, 226, 226, 0.2);
     cursor: pointer;
 }
 
