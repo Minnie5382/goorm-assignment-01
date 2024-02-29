@@ -15,7 +15,7 @@ main .movies img {
 
 main .movies img:hover {
     transform: scale(1.2);
-  }
+}
 
 main .content .movies {
     display: flex;
@@ -27,10 +27,10 @@ main .content .movies {
 }
 
 .movies {
-    overflow-x: scroll;
+    overflow: auto;
     white-space: nowrap;
 }
 
 .movies::-webkit-scrollbar {
     display: none;
-  }
+}

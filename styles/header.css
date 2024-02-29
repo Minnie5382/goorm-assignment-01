@@ -6,7 +6,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.93) 480px 0px 500px inset;
+    box-shadow: rgba(0, 0, 0, 0.91) 440px 0px 200px inset;
 }
 
 .header .info_wrapper {
@@ -51,7 +51,7 @@ header {
 
 .header_content .movie_intro p {
     margin-top:8px;
-    
+
 }
 
 .header_content button {
